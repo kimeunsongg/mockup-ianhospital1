@@ -16,7 +16,6 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-background pb-16 xl:pb-0">
       <SiteHeader />
-      <QuickMenu />
       <main>
         <Hero />
         <About />
@@ -30,6 +29,7 @@ export default function Page() {
         <NaverBanner />
         <LocationFooter />
       </main>
+      <QuickMenu />
     </div>
   )
 }
